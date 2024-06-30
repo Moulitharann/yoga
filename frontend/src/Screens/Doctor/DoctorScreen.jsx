@@ -22,7 +22,7 @@ const DoctorScreen = () => {
             <div className="doctor_container my-3 py-5 text-center">
               <div className="row  mb-3">
                 <div className="col">
-                  <h1 className="doctorh1">All Doctors</h1>
+                  <h1 className="doctorh1">ALL YOGA MENTORS</h1>
                 </div>
               </div>
               <div className="row">

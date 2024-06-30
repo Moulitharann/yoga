@@ -68,11 +68,11 @@ const MedicineListScreen = () => {
     <>
       <Row className="align-items-center my-5 mx-3">
         <Col>
-          <h1>Medicines</h1>
+          <h1>Yoga Products</h1>
         </Col>
         <Col className="text-end">
           <Button className="my-3" onClick={createMedicineHandler}>
-            <FaPlus /> Create Medicine
+            <FaPlus /> Add Yoga Products
           </Button>
         </Col>
       </Row>

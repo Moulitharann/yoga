@@ -1,7 +1,7 @@
 .productcard {
   position: relative;
   width: 270px;
-  height: 320px;
+  height: fit-content;
   /* margin-top: 3.5rem; */
   margin: 3.5rem 1rem;
   border: 0.1rem #c0c0c0 solid;

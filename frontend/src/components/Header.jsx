@@ -57,7 +57,7 @@ const Header = () => {
             <Nav className="ms-auto">
               <LinkContainer to="/Medicine">
                 <Nav.Link>
-                   yoga products
+                   Yoga Products
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Doctor">
@@ -98,29 +98,30 @@ const Header = () => {
                   </NavDropdown>
                   <NavDropdown title="Admin" id="adminmenu">
                     <LinkContainer to="/admin/medicinelist">
-                      <NavDropdown.Item>Medicines</NavDropdown.Item>
-                    </LinkContainer>
-                    <LinkContainer to="/admin/orderlist">
-                      <NavDropdown.Item>Orders</NavDropdown.Item>
-                    </LinkContainer>
-                    <LinkContainer to="/admin/appointmentlist">
-                      <NavDropdown.Item>Appointments</NavDropdown.Item>
-                    </LinkContainer>
-                    <LinkContainer to="/admin/requestlist">
-                      <NavDropdown.Item>Blood Request</NavDropdown.Item>
-                    </LinkContainer>
-                    <LinkContainer to="/admin/userlist">
-                      <NavDropdown.Item>Users</NavDropdown.Item>
-                    </LinkContainer>
-                    <LinkContainer to="/admin/bloodlist">
-                      <NavDropdown.Item>Bloods</NavDropdown.Item>
+                      <NavDropdown.Item>Yoga Products</NavDropdown.Item>
                     </LinkContainer>
                     <LinkContainer to="/admin/doctorlist">
                       <NavDropdown.Item>Yoga Specialist</NavDropdown.Item>
                     </LinkContainer>
-                    <LinkContainer to="/admin/chat">
-                      <NavDropdown.Item>Chat</NavDropdown.Item>
+                    <LinkContainer to="/admin/orderlist">
+                      <NavDropdown.Item>Orders</NavDropdown.Item>
                     </LinkContainer>
+                    {/* <LinkContainer to="/admin/appointmentlist">
+                      <NavDropdown.Item>Appointments</NavDropdown.Item>
+                    </LinkContainer>
+                    <LinkContainer to="/admin/requestlist">
+                      <NavDropdown.Item>Blood Request</NavDropdown.Item>
+                    </LinkContainer> */}
+                    <LinkContainer to="/admin/userlist">
+                      <NavDropdown.Item>Users</NavDropdown.Item>
+                    </LinkContainer>
+                    {/* <LinkContainer to="/admin/bloodlist">
+                      <NavDropdown.Item>Bloods</NavDropdown.Item>
+                    </LinkContainer> */}
+                    
+                    {/* <LinkContainer to="/admin/chat">
+                      <NavDropdown.Item>Chat</NavDropdown.Item>
+                    </LinkContainer> */}
                   </NavDropdown>
                   </>
               ) : (

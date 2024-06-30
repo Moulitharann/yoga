@@ -16,7 +16,7 @@ const MedicineScreen = () => {
         </Message>
       ) : (
         <>
-        <h2 className="text-center mt-4">Latest Medicine</h2>
+        <h2 className="text-center mt-4">Latest Yoga Products</h2>
           <div className="d-flex justify-content-center row mb-4">
             {meds.map((med) => (
               <Medicine med={med} />

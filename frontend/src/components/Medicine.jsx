@@ -19,7 +19,7 @@ const Medicine = ({ med }) => {
         <Rating value={med.rating} text={`${med.numReviews} reviews`} />
         <div className="price mt-2">
           <strong>
-            <span className="text-danger">৳
+            <span className="text-danger">&#x20B9;
             </span>
             {" "}{med.price}
           </strong>

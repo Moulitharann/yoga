@@ -207,7 +207,7 @@ const AdminProfile = () => {
                     <tr>
                       <th>ID</th>
                       <th>DATE</th>
-                      <th>Doctor Name</th>
+                      <th>Mentor Name</th>
                       <th>Chamber</th>
                       <th>Approved</th>
                       <th></th>
@@ -257,7 +257,7 @@ const AdminProfile = () => {
               )}
             </>
             <>
-              <h2 className="text-center mt-4">All Blood Requests</h2>
+              {/* <h2 className="text-center mt-4">All Blood Requests</h2>
               {isRequestLoading ? (
                 <Loader />
               ) : Requesterror ? (
@@ -321,7 +321,7 @@ const AdminProfile = () => {
                     ))}
                   </tbody>
                 </Table>
-              )}
+              )} */}
             </>
           </MDBCardBody>
         </MDBCard>

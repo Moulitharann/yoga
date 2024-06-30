@@ -71,7 +71,7 @@ const Footer = () => {
           </CDBBox>
         </CDBBox>
         <small className="text-center mt-5">
-          &copy; eHealth @ {currentYear} All rights reserved.
+          &copy; Yogic's Space @ {currentYear} All rights reserved.
         </small>
       </CDBBox>
     </CDBSidebarFooter>

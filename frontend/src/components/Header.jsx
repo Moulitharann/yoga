@@ -49,7 +49,7 @@ const Header = () => {
           <LinkContainer to="/">
             <Navbar.Brand>
               <img alt="logo" src={logo} width="28px" />
-              Yogic's Space
+              Yogic's Space 1
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -57,19 +57,19 @@ const Header = () => {
             <Nav className="ms-auto">
               <LinkContainer to="/Medicine">
                 <Nav.Link>
-                  <FaCapsules /> Medicine
+                   yoga products
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Doctor">
                 <Nav.Link>
-                  <FaStethoscope /> Doctor
+                   Yoga Specialist
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Blood">
+              {/* <LinkContainer to="/Blood">
                 <Nav.Link>
                   <FaStethoscope /> Blood
                 </Nav.Link>
-              </LinkContainer>
+              </LinkContainer> */}
               <LinkContainer to="/Contactus">
                 <Nav.Link>
                   <FaTty /> Contact Us
@@ -116,7 +116,7 @@ const Header = () => {
                       <NavDropdown.Item>Bloods</NavDropdown.Item>
                     </LinkContainer>
                     <LinkContainer to="/admin/doctorlist">
-                      <NavDropdown.Item>Doctors</NavDropdown.Item>
+                      <NavDropdown.Item>Yoga Specialist</NavDropdown.Item>
                     </LinkContainer>
                     <LinkContainer to="/admin/chat">
                       <NavDropdown.Item>Chat</NavDropdown.Item>

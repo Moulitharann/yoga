@@ -22,7 +22,7 @@ const MakeAppointment = () => {
               </p>
               <Link
                 variant="contained"
-                to="/Medicine"
+                to="/yogaproduct"
                 className=" contact1-form-btn1"
               >
                 Now

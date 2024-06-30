@@ -49,7 +49,7 @@ const Header = () => {
           <LinkContainer to="/">
             <Navbar.Brand>
               <img alt="logo" src={logo} width="28px" />
-              eHealth
+              Yogic's Space
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

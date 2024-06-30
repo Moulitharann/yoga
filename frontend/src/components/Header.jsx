@@ -55,12 +55,12 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <LinkContainer to="/Medicine">
+              <LinkContainer to="/yogaproduct">
                 <Nav.Link>
                    Yoga Products
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/Doctor">
+              <LinkContainer to="/yogamentors">
                 <Nav.Link>
                    Yoga Mentors
                 </Nav.Link>
@@ -106,7 +106,7 @@ const Header = () => {
                     <LinkContainer to="/admin/orderlist">
                       <NavDropdown.Item>Orders</NavDropdown.Item>
                     </LinkContainer>
-                    {/* <LinkContainer to="/admin/appointmentlist">
+                    {/* <LinkContainer to="/admin/appointmentlis  t">
                       <NavDropdown.Item>Appointments</NavDropdown.Item>
                     </LinkContainer>
                     <LinkContainer to="/admin/requestlist">

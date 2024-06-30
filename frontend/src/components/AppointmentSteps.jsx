@@ -15,10 +15,10 @@ const AppointmentSteps = ({ steps }) => {
           label: <Link to="/appointmentdate">Date & Time</Link>,
         },
         {
-          label: <Link to="/appointmentaddress">Patient Info</Link>,
+          label: <Link to="/appointmentaddress">user Info</Link>,
         },
         {
-          label: <Link to="/placeappointment">Place Appointment</Link>,
+          label: <Link to="/placeappointment">Appointment</Link>,
         },
       ]}
     />

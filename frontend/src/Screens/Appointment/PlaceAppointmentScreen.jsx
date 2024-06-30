@@ -76,9 +76,9 @@ const PlaceAppointmentScreen = () => {
           <Col md={8}>
             <ListGroup variant="flush">
               <ListGroup.Item>
-                <h2>Patient Informations</h2>
+                <h2> Informations</h2>
                 {choice.doctorInfo.length === 0 ? (
-                  <Message>Patient Information is empty</Message>
+                  <Message> Information is empty</Message>
                 ) : (
                   <p>
                     <strong>Name: </strong>
@@ -99,19 +99,19 @@ const PlaceAppointmentScreen = () => {
                   ? ((check = true),
                     (
                       <Message variant="success">
-                        Your Appointment is between Doctor Schedule You Can Take
+                        Your Appointment is between yogaspecialist Schedule You Can Take
                         The Appointment
                       </Message>
                     ))
                   : ((check = false),
                     (
                       <Message variant="danger">
-                        Your Appointment is not between Doctor Schedule
+                        Your Appointment is not between yogaspecialist Schedule
                       </Message>
                     ))}
               </ListGroup.Item>
               <ListGroup.Item>
-                <h2>Doctor Information</h2>
+                <h2>yogaspecialist Information</h2>
                 {choice.doctorInfo.length === 0 ? (
                   <Message>Your Appointment is empty</Message>
                 ) : (

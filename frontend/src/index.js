@@ -84,12 +84,12 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<HomeScreen />} />
-      <Route path="/Medicine" element={<MedicineScreen />} />
+      <Route path="/yogaproduct" element={<MedicineScreen />} />
       <Route path="/med/:id" element={<MedicineScreenDetails />} />
       <Route path="/cart" element={<CartScreen />} />
       <Route path="/login" element={<LoginScreen setAuthenticated={true} />} />
       <Route path="/register" element={<RegisterScreen />} />
-      <Route path="/Doctor" element={<DoctorScreen />} />
+      <Route path="/yogamentors" element={<DoctorScreen />} />
       <Route path="/doctor/:id" element={<DoctorScreenDetails />} />
       <Route path="/Blood" element={<BloodScreen />} />
       <Route path="/Contactus" element={<ContactUS />} />

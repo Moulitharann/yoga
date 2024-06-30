@@ -13,7 +13,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { useLogoutMutation } from "../slices/usersApiSlice";
 import { logout } from "../slices/authSlice";
-import logo from "../images/ehealth.svg";
+import logo from "../images/download/download.jpeg";
 
 const Header = () => {
   const { cartItems } = useSelector((state) => state.cart);
@@ -49,7 +49,7 @@ const Header = () => {
           <LinkContainer to="/">
             <Navbar.Brand>
               <img alt="logo" src={logo} width="28px" />
-              Yogic's Space 1
+              Yogic's Space 
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -57,12 +57,12 @@ const Header = () => {
             <Nav className="ms-auto">
               <LinkContainer to="/Medicine">
                 <Nav.Link>
-                   yoga products
+                   Yoga Products
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Doctor">
                 <Nav.Link>
-                   Yoga Specialist
+                   Yoga Mentors
                 </Nav.Link>
               </LinkContainer>
               {/* <LinkContainer to="/Blood">
@@ -72,12 +72,12 @@ const Header = () => {
               </LinkContainer> */}
               <LinkContainer to="/Contactus">
                 <Nav.Link>
-                  <FaTty /> Contact Us
+                   Contact Us
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Aboutus">
                 <Nav.Link>
-                  <FaAddressBook /> About Us
+                   About Us
                 </Nav.Link>
               </LinkContainer>
               {!userInfo ? (

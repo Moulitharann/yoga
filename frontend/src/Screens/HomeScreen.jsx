@@ -14,7 +14,7 @@ const HomeScreen = () => {
       <MakeAppointment />
       <Service />
       <Counter />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </>
   );
 };

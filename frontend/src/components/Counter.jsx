@@ -3,9 +3,9 @@ import "../assets/styles/Counter.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalendarCheck,
-  faFaceSmile,
-  faPills,
+  faDumbbell,
   faUsers,
+  faSmile,
 } from "@fortawesome/free-solid-svg-icons";
 import { Zoom } from "react-awesome-reveal";
 
@@ -17,26 +17,26 @@ const Counter = () => {
           <div className="box-container">
             <div className="box" data-aos="fade-up">
               <FontAwesomeIcon icon={faCalendarCheck} className="i" />
-              <span>40+</span>
-              <h3>Appointments</h3>
+              <span>50+</span>
+              <h3>Yoga Classes</h3>
             </div>
 
             <div className="box" data-aos="fade-up">
               <FontAwesomeIcon icon={faUsers} className="i" />
-              <span>100+</span>
-              <h3>Users</h3>
+              <span>200+</span>
+              <h3>Happy Yogis</h3>
             </div>
 
             <div className="box" data-aos="fade-up">
-              <FontAwesomeIcon icon={faFaceSmile} className="i" />
-              <span>1200+</span>
-              <h3>happy patients</h3>
+              <FontAwesomeIcon icon={faSmile} className="i" />
+              <span>500+</span>
+              <h3>Positive Reviews</h3>
             </div>
 
             <div className="box" data-aos="fade-up">
-              <FontAwesomeIcon icon={faPills} className="i" />
-              <span>130+</span>
-              <h3>Medicine</h3>
+              <FontAwesomeIcon icon={faDumbbell} className="i" />
+              <span>30+</span>
+              <h3>Workshops</h3>
             </div>
           </div>
         </div>
@@ -46,3 +46,4 @@ const Counter = () => {
 };
 
 export default Counter;
+  

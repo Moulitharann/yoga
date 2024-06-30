@@ -20,12 +20,11 @@ const Footer = () => {
         <CDBBox display="flex" justifyContent="between" className="flex-wrap">
           <CDBBox>
             <p className="h5 mb-4" style={{ fontWeight: "600" }}>
-              <img alt="logo" src={logo} width="30px" /> eHealth
+              <img alt="logo" src={logo} width="30px" /> Yogic's Space
             </p>
 
             <p className="my-3" style={{ width: "250px" }}>
-              We are creating High Quality Resources and tools to Aid developers
-              during the developement of their projects
+
             </p>
             <CDBBox display="flex" className="mt-4">
               <CDBBtn flat color="dark">
@@ -41,7 +40,7 @@ const Footer = () => {
           </CDBBox>
           <CDBBox>
             <p className="h5 mb-4" style={{ fontWeight: "600" }}>
-              eHealth
+              Yogic's Space
             </p>
             <CDBBox flex="column" style={{ cursor: "pointer", padding: "0" }}>
               <CDBLink href="/">Resources</CDBLink>
@@ -65,9 +64,9 @@ const Footer = () => {
               Service
             </p>
             <CDBBox flex="column" style={{ cursor: "pointer", padding: "0" }}>
-              <CDBLink href="/">Medicine</CDBLink>
-              <CDBLink href="/">Doctor</CDBLink>
-              <CDBLink href="/">Blood</CDBLink>
+            <CDBLink href="/">Yoga Classes</CDBLink>
+              <CDBLink href="/">Workshops</CDBLink>
+              <CDBLink href="/">Meditation</CDBLink>
             </CDBBox>
           </CDBBox>
         </CDBBox>

@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
-import images01 from "../images/icon/blood_donation.png";
+import images01 from "../images/icon/blood_donation.png";  // Update these images to be yoga-related
 import images02 from "../images/icon/medical-kit.png";
 import images03 from "../images/icon/AdobeStock_207418957_Preview-removebg-preview.png";
 import images04 from "../images/icon/open.png";
@@ -18,11 +18,10 @@ const Features = () => {
           <div className="row align-self-center">
             <div className="col-md-4 d-flex flex-column justify-content-center align-items-center">
               <div id="box-1" className="box col-md-4 ">
-                <img style={{ height: "80px" }} src={images02} alt="" />
-                <h3 className="my-2">Emergency Care</h3>
+                {/* <img style={{ height: "80px" }} src={images02} alt="Yoga Classes" /> */}
+                <h3 className="my-2">Yoga Classes</h3>
                 <p className="lead mb-3">
-                  emergency care is needed immediately needs to be in a medical
-                  facility, while if it is an urgent medical issue .
+                  Join our expert-led yoga classes for all levels. Enhance your flexibility, strength, and peace of mind.
                 </p>
                 <Button variant="contained" color="primary">
                   Learn More
@@ -31,12 +30,10 @@ const Features = () => {
             </div>
             <div className="col-md-4 d-flex flex-column justify-content-center align-items-center">
               <div id="box-2" className="box  col-md-4">
-                <img style={{ height: "80px" }} src={images04} alt="" />
-                <h3 className="my-2">Openning Hours</h3>
+                {/* <img style={{ height: "80px" }} src={images04} alt="Opening Hours" /> */}
+                <h3 className="my-2">Opening Hours</h3>
                 <p className="lead mb-3">
-                  {" "}
-                  Needed immediately and patient needs to be shifted in a
-                  medical facility, while if it is an urgent medical issue .
+                  We offer yoga sessions throughout the week. Check our schedule for class timings and availability.
                 </p>
                 <Button variant="contained" color="secondary">
                   Learn More
@@ -45,11 +42,10 @@ const Features = () => {
             </div>
             <div className="col-md-4 d-flex flex-column justify-content-center align-items-center">
               <div id="box-3" className="box col-md-4 ">
-                <img style={{ height: "80px" }} src={images01} alt="" />
-                <h3 className="my-2">Blood Donation</h3>
+                {/* <img style={{ height: "80px" }} src={images01} alt="Meditation" /> */}
+                <h3 className="my-2">Meditation</h3>
                 <p className="lead mb-3">
-                  emergency care is needed immediately needs to be in a medical
-                  facility, while if it is an urgent medical issue .
+                  Discover the benefits of meditation for stress relief and mental clarity in our guided sessions.
                 </p>
                 <Button variant="contained" color="primary">
                   Learn More
@@ -58,11 +54,10 @@ const Features = () => {
             </div>
             <div className="col-md-4 d-flex flex-column justify-content-center align-items-center">
               <div id="box-4" className="box col-md-4 ">
-                <img style={{ height: "80px" }} src={images05} alt="" />
-                <h3 className="my-2">Chat With Doctors</h3>
+                {/* <img style={{ height: "80px" }} src={images05} alt="Yoga for Beginners" /> */}
+                <h3 className="my-2">Yoga for Beginners</h3>
                 <p className="lead mb-3">
-                  emergency care is needed immediately needs to be in a medical
-                  facility, while if it is an urgent medical issue .
+                  New to yoga? Start with our beginner-friendly classes designed to help you build a solid foundation.
                 </p>
                 <Button variant="contained" color="primary">
                   Learn More
@@ -71,11 +66,10 @@ const Features = () => {
             </div>
             <div className="col-md-4 d-flex flex-column justify-content-center align-items-center">
               <div id="box-5" className="box col-md-4 ">
-                <img style={{ height: "80px" }} src={images06} alt="" />
-                <h3 className="my-2">Get Appointment</h3>
+                {/* <img style={{ height: "80px" }} src={images06} alt="Private Sessions" /> */}
+                <h3 className="my-2">Private Sessions</h3>
                 <p className="lead mb-3">
-                  emergency care is needed immediately needs to be in a medical
-                  facility, while if it is an urgent medical issue .
+                  Enjoy personalized attention with our one-on-one yoga sessions tailored to your needs and goals.
                 </p>
                 <Button variant="contained" color="primary">
                   Learn More
@@ -84,13 +78,11 @@ const Features = () => {
             </div>
             <div className="col-md-4 d-flex flex-column justify-content-center align-items-center">
               <div id="box-6" className="box  col-md-4">
-                <img style={{ height: "80px" }} src={images03} alt="" />
-                <h3 className="my-2">24 Hours Service</h3>
+                {/* <img style={{ height: "80px" }} src={images03} alt="24/7 Yoga Support" /> */}
+                <h3 className="my-2">24/7 Yoga Support</h3>
                 <p className="lead mb-3">
-                  emergency care is needed immediately and patient needs medical
-                  facility, while if it is an urgent medical issue .
+                  Get access to yoga resources and support anytime. Reach out to our team for guidance and advice.
                 </p>
-
                 <Button variant="contained" color="primary">
                   <Link className="btnlink" to="/contactus">
                     Contact Now
